@@ -1,6 +1,10 @@
 # Commonsense Validation and Explanation Task
 This repository contains the code for our submission to SemEval-2020 task 4: Commonsense Validation and Explanation Task (ComVe). The task is explained in the picture below.
 
+The data provided by the task organizers is available under the following [repository](https://github.com/wangcunxiang/SemEval2020-Task4-Commonsense-Validation-and-Explanation).
+
+Subtask A and B will are evaluated using accuracy. Subtask C is evaluated using BLEU score.
+
 ![alt text](https://github.com/PhaelIshall/SemEval2020-Code/blob/master/comve.png "ComVe tasks")
 
 # How to run the code
