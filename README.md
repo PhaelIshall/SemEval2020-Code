@@ -1,4 +1,8 @@
-# SemEval2020-Code
+# Commonsense Validation and Explanation task (ComVe)
+Task A:
+
+Task B:
+
 # ComVE
 
 # Hugging Face Transformer Library 
