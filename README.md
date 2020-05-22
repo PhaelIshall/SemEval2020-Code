@@ -1,5 +1,5 @@
 # Commonsense Validation and Explanation task (ComVe)
-Inline-style: 
+
 ![alt text](https://github.com/PhaelIshall/SemEval2020-Code/blob/master/comve.png "ComVe tasks")
 
 
