@@ -1,5 +1,5 @@
 # Commonsense Validation and Explanation Task
-This repository contains the code for our submission to SemEval-2020 task 4: Commonsense Validation and Explanation Task (ComVe). The task is explained in the picture below.
+This repository contains the code for our submission to SemEval-2020 task 4: Commonsense Validation and Explanation Task (ComVe). The task is explained in the picture below. Please look at the [paper](https://www.aclweb.org/anthology/2020.semeval-1.51/) here for more details 
 
 The data provided by the task organizers is available under the following [repository](https://github.com/wangcunxiang/SemEval2020-Task4-Commonsense-Validation-and-Explanation).
 
