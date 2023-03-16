@@ -9,26 +9,32 @@ Subtask A and B will are evaluated using accuracy. Subtask C is evaluated using 
 
 # How to run the code
 
-## Task A
-    export COMVE_DIR=/path/to/COMVE_data_dir
-          export OUTPUT_DIR=/path/to/output_dir 
-          python3 ./run_taskA.py \
-          --model_type bert \
-          --task_name swag \
-          --model_name_or_path bert-base-uncased \
-          --do_train \
-          --do_eval \
-          --do_test \
-          --data_dir $COMVE_DIR \
-          --learning_rate 5e-5 \
-          --num_train_epochs 3 \
-          --max_seq_length 80 \
-          --output_dir $OUTPUT_DIR \
-          --per_gpu_eval_batch_size=8 \
-          --per_gpu_train_batch_size=8 \
-          --gradient_accumulation_steps 2 \
-          --overwrite_output > results.csv 
-          
+
+### Setup
+      export COMVE_DIR=/path/to/COMVE_data_dir
+      export OUTPUT_DIR=/path/to/output_dir 
+      conda create -n comve_env python=3.6
+      conda activate comve_env
+      pip3 install requirements.txt
+        
+## Task A   
+      python3 ./run_taskA.py \
+              --model_type bert \
+              --task_name swag \
+              --model_name_or_path bert-base-uncased \
+              --do_train \
+              --do_eval \
+              --do_test \
+              --data_dir $COMVE_DIR \
+              --learning_rate 5e-5 \
+              --num_train_epochs 3 \
+              --max_seq_length 80 \
+              --output_dir $OUTPUT_DIR \
+              --per_gpu_eval_batch_size=8 \
+              --per_gpu_train_batch_size=8 \
+              --gradient_accumulation_steps 2 \
+              --overwrite_output > results.csv 
+
 ## Task B
       export COMVE_DIR=/path/to/COMVE_data_dir 
       export OUTPUT_DIR=/path/to/output_dir 
